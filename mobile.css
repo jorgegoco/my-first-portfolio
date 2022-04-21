@@ -1,62 +1,62 @@
 .nav_menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 header {
-    margin-left: 24px;
-    margin-right: 24px;
+	margin-left: 24px;
+	margin-right: 24px;
 }
 
 .main {
-    padding-block-start: 10%;
-    padding-block-end: 7%;
+	padding-block-start: 10%;
+	padding-block-end: 7%;
 }
 
 h1 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    text-align: center;
-    font-size: 250%;
-    margin: auto;
-    width: 70%;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	text-align: center;
+	font-size: 250%;
+	margin: auto;
+	width: 70%;
 }
 
 h1#color {
-    color: #36B37E;
+	color: #36B37E;
 }
 
 .headline-text {
-    margin: auto;
-    width: 60%;
-    padding-block-end: 20%;
+	margin: auto;
+	width: 60%;
+	padding-block-end: 20%;
 }
 
 p {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    text-align: center;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
 }
 
 .links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 ul li {
-    list-style-type: none;
+	list-style-type: none;
 }
 
 ul .icon {
-    margin-left: 6px;
-    margin-right: 6px;
+	margin-left: 6px;
+	margin-right: 6px;
 }
 
 ul {
-    padding-left: 10%;
-    padding-right: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
 }
