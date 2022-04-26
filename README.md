@@ -8,7 +8,13 @@ HTML and CSS
 
 ## Getting Started
 
-To get a local copy of the code you can clone it from [here](https://github.com/jorgegoco/my-first-portfolio.git)
+### To Access my project locally you can follow these steps
+
+1. Enter this url:  https://github.com/jorgegoco/my-first-portfolio.git in your web browser.
+2. Once opened navigate to the top left level of the project a green code download button will be visible on the righthand side.
+3. Select download Zip option from drop down menu.
+4. Once the download is complete you will be able to access my project locally.
+Here is my repository link:  https://github.com/jorgegoco/my-first-portfolio.git
 
 ## Authors
 
