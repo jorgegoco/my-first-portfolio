@@ -109,12 +109,13 @@ main {
 }
 
 .content {
-  background: #ffffff;
+  background: #fff;
   border-radius: 8px;
   margin-top: 252px;
   height: 220px;
   text-align: center;
 }
+
 .multi-post {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -150,13 +151,10 @@ main {
   background: #36b37f;
   border-radius: 4px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: #fff;
   margin-top: 9px;
 }
 
-.about-me {
- 
-}
 .about-me-headline {
   text-align: center;
   background-image: url("./images/about-me-background.png");
@@ -175,6 +173,7 @@ main {
   margin: 0;
   padding-top: 48px;
 }
+
 .about-me-text {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -196,7 +195,7 @@ main {
   text-align: center;
   background: #36b37f;
   border-radius: 4px;
-  color: #ffffff;
+  color: #fff;
   padding: 12px;
 }
 
@@ -220,6 +219,7 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
+
 .grid2-headlines {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -230,6 +230,7 @@ main {
   color: #344563;
   margin-top: 32px;
 }
+
 .about-me-languages {
   display: flex;
   justify-content: space-between;
@@ -239,7 +240,7 @@ main {
 
 .about-me-each-language {
   padding: 12px;
-  background: #ffffff;
+  background: #fff;
   border-radius: 8px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -261,7 +262,7 @@ main {
 .about-me-each-framework {
   padding: 12px;
   margin: 4px;
-  background: #ffffff;
+  background: #fff;
   border-radius: 8px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -283,7 +284,7 @@ main {
 .about-me-each-skill {
   padding: 12px;
   margin: 4px;
-  background: #ffffff;
+  background: #fff;
   border-radius: 8px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -293,4 +294,3 @@ main {
   letter-spacing: 0.03em;
   color: #36b37e;
 }
-
