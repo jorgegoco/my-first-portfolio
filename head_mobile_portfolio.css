@@ -19,7 +19,7 @@ header {
 }
 
 main {
-  background-image: url("./images/header_background.png");
+  background-image: url("./images/header-background.png");
   background-size: cover;
   padding-top: 58px;
 }
@@ -75,3 +75,222 @@ main {
   margin-right: auto;
   margin-top: 50px;
 }
+
+.recent-works {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  margin: 22px;
+  color: #172b4d;
+}
+
+.short-green-line {
+  width: 48px;
+  height: 4px;
+  background: #36b37e;
+  border-radius: 24px;
+  margin-bottom: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: repeat(6, 474px);
+  row-gap: 24px;
+  padding: 62px 22px 0 26px;
+}
+
+.grid-item {
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  background: #ebf0ee;
+}
+
+.content {
+  background: #ffffff;
+  border-radius: 8px;
+  margin-top: 252px;
+  height: 220px;
+  text-align: center;
+}
+.multi-post {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #3a4a42;
+  text-align: center;
+  padding-top: 16px;
+  margin-bottom: 0;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0 11px;
+}
+
+.language {
+  padding: 8px 12px;
+  background: #ebf0ee;
+}
+
+.work-button {
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 12px;
+  background: #36b37f;
+  border-radius: 4px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin-top: 9px;
+}
+
+.about-me {
+ 
+}
+.about-me-headline {
+  text-align: center;
+  background-image: url("./images/about-me-background.png");
+  background-size: cover;
+  margin-top: 20px;
+}
+
+.about-me-title {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  margin: 0;
+  padding-top: 48px;
+}
+.about-me-text {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+  margin: 24px 12px 24px 12px;
+}
+
+.about-me-button {
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  background: #36b37f;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 12px;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-rows: repeat(3, 352px);
+  row-gap: 24px;
+  padding: 59px 24px 10px 24px;
+}
+
+.grid-item2 {
+  border: 1px solid #c1c7d0;
+  border-radius: 8px;
+  background: #ebf0ee;
+}
+
+.about-me-icons {
+  display: block;
+  margin-top: 7px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.grid2-headlines {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #344563;
+  margin-top: 32px;
+}
+.about-me-languages {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0 28px;
+}
+
+.about-me-each-language {
+  padding: 12px;
+  background: #ffffff;
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+}
+
+.about-me-frameworks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0 28px;
+}
+
+.about-me-each-framework {
+  padding: 12px;
+  margin: 4px;
+  background: #ffffff;
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+}
+
+.about-me-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0 28px;
+}
+
+.about-me-each-skill {
+  padding: 12px;
+  margin: 4px;
+  background: #ffffff;
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+}
+
