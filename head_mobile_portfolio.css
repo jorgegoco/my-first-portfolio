@@ -297,10 +297,25 @@ main {
   color: #36b37e;
 }
 
+.input-button {
+  display: inline-block;
+  font-family: 'Inter', sans-serif, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  background: #36b37f;
+  border-radius: 4px;
+  color: #fff;
+  padding: 12px;
+  border: 0;
+}
+
 .work-button:hover,
 .about-me-button:hover,
 .input-button:hover {
-  background: #36B37F;
+  background: #36b37f;
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 4px;
 }
@@ -364,21 +379,6 @@ main {
   line-height: 24px;
   color: #091e42;
   padding: 0 12px;
-}
-
-.input-button {
-  display: inline-block;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  text-align: center;
-  background: #36b37f;
-  border-radius: 4px;
-  color: #fff;
-  padding: 12px;
-  border: 0;
 }
 
 .ilustration-contact-form {
