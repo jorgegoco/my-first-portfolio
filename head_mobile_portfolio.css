@@ -9,6 +9,10 @@ header {
   margin: 38px 32px 0 24px;
 }
 
+.desktop-header {
+  display: none;
+}
+
 .welcome {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -19,9 +23,9 @@ header {
 }
 
 main {
-  background-image: url("./images/header-background.png");
-  background-size: cover;
   padding-top: 58px;
+  background-image: url("./images/header-background-mobile.png");
+  background-size: cover;
 }
 
 .big {
@@ -158,7 +162,7 @@ main {
 
 .about-me-headline {
   text-align: center;
-  background-image: url("./images/about-me-background.png");
+  background-image: url("./images/about-me-background-mobile.png");
   background-size: cover;
   margin-top: 20px;
 }
@@ -327,6 +331,11 @@ main {
   border-radius: 4px;
 }
 
+.footer {
+  background-image: url("./images/contact-form-background-mobile.png");
+  background-size: cover;
+}
+
 .footer-header {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -345,6 +354,10 @@ main {
   align-items: center;
   padding: 0;
   margin: 0 24px;
+}
+
+.long-grey-line {
+  display: none;
 }
 
 .input-text {
@@ -381,12 +394,6 @@ main {
   padding: 0 12px;
 }
 
-.ilustration-contact-form {
-  position: absolute;
-  right: 0;
-  top: 6225px;
-}
-
 .email-footer {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -403,4 +410,129 @@ main {
   background: #172b4d;
   border-radius: 24px;
   margin-top: 320px;
+}
+
+@media (min-width: 768px) {
+  main {
+    padding: 0;
+    padding-bottom: 495px;
+    background-image: url("./images/header-background-desktop.png");
+    background-size: 100% 100%;
+  }
+
+  header {
+    display: none;
+  }
+
+  .desktop-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .top-desktop-text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    margin: 10px 8px;
+  }
+
+  .black-colored {
+    margin-top: 160px;
+  }
+
+  .big {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .text {
+    margin: 0 260px;
+  }
+
+  .chevron {
+    margin-top: 70px;
+  }
+
+  .short-green-line {
+    display: none;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-rows: repeat(2, 474px);
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 32px;
+    column-gap: 24px;
+    padding: 0 10%;
+  }
+
+  .about-me-headline {
+    text-align: center;
+    background-image: url("./images/about-me-background-desktop.svg");
+    background-size: cover;
+    margin-top: 144px;
+  }
+
+  .about-me-text {
+    margin: 24px 18% 24px 18%;
+  }
+
+  .grid-container2 {
+    display: grid;
+    grid-template-rows: none;
+    row-gap: none;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 24px;
+    padding: 59px 142px 84px 142px;
+  }
+
+  .footer {
+    background-image: url("./images/contact-form-background-desktop.png");
+    background-size: cover;
+  }
+
+  .footer-header {
+    width: 463px;
+    float: left;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 52px;
+    text-align: center;
+    color: #172b4d;
+    margin: 50px 24px 58px 135px;
+  }
+
+  .form {
+    margin: 0 135px 0 24px;
+  }
+
+  .input-button {
+    align-self: flex-start;
+  }
+
+  .below {
+    margin-top: 15px;
+  }
+
+  .email-footer {
+    display: none;
+  }
+
+  .short-black-line {
+    display: none;
+  }
+
+  .long-grey-line {
+    display: block;
+    height: 1px;
+    background: #dfe1e6;
+    margin-top: 225px;
+  }
 }
