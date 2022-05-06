@@ -37,6 +37,20 @@ main {
   text-align: center;
 }
 
+.big {
+  animation-duration: 2.5s;
+  animation-name: logo-rotate;
+}
+
+@keyframes logo-rotate {
+  50% {
+    font-size: 10px;
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .black-colored {
   margin-top: 10px;
   margin-bottom: 5px;
