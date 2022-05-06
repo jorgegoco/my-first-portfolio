@@ -35,9 +35,6 @@ main {
   font-size: 40px;
   line-height: 52px;
   text-align: center;
-}
-
-.big {
   animation-duration: 2.5s;
   animation-name: logo-rotate;
 }
@@ -46,6 +43,7 @@ main {
   50% {
     font-size: 10px;
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -172,6 +170,8 @@ main {
   color: #fff;
   margin-top: 9px;
   border: 0;
+  transition-property: font-size;
+  transition-duration: 0.5s;
 }
 
 .about-me-headline {
@@ -217,6 +217,8 @@ main {
   color: #fff;
   padding: 12px;
   border: 0;
+  transition-property: font-size;
+  transition-duration: 0.5s;
 }
 
 .grid-container2 {
@@ -328,6 +330,8 @@ main {
   color: #fff;
   padding: 12px;
   border: 0;
+  transition-property: font-size;
+  transition-duration: 0.5s;
 }
 
 .work-button:hover,
@@ -336,6 +340,7 @@ main {
   background: #36b37f;
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 4px;
+  font-size: 20px;
 }
 
 .work-button:active,
