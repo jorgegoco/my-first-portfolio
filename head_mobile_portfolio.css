@@ -490,10 +490,10 @@ main {
     padding: 0 10%;
   }
 
-  /*
+
   .grid-item:hover {
     transform: scale(1.2);
-  } */
+  } 
 
   .about-me-headline {
     text-align: center;
