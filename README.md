@@ -1,10 +1,14 @@
-# Portfolio: setup and mobile version skeleton
+# Jorgegoco's First Portfolio
 
-This is a first approximation to a mobile version of my own portfolio.
+This is the first version of my Portfolio website.
 
 ## Built With
 
 HTML and CSS
+
+## Live Demo 
+
+[Live Demo Link](https://jorgegoco.github.io/my-first-portfolio/)
 
 ## Getting Started
 
