@@ -2,6 +2,17 @@ body {
   margin: 0;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -57,7 +68,7 @@ main {
 
 .header-colored {
   margin-top: 0;
-  color: #36b37e;
+  color: #1a5b40;
 }
 
 .text {
@@ -164,7 +175,7 @@ main {
   font-size: 17px;
   line-height: 24px;
   padding: 12px;
-  background: #36b37f;
+  background: #1a5b40;
   border-radius: 4px;
   letter-spacing: 0.03em;
   color: #fff;
@@ -212,7 +223,7 @@ main {
   font-size: 17px;
   line-height: 24px;
   text-align: center;
-  background: #36b37f;
+  background: #1a5b40;
   border-radius: 4px;
   color: #fff;
   padding: 12px;
@@ -270,7 +281,7 @@ main {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #36b37e;
+  color: #1a5b40;
 }
 
 .about-me-frameworks {
@@ -292,7 +303,7 @@ main {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #36b37e;
+  color: #1a5b40;
 }
 
 .about-me-skills {
@@ -314,7 +325,7 @@ main {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #36b37e;
+  color: #1a5b40;
 }
 
 .input-button {
@@ -325,7 +336,7 @@ main {
   font-size: 17px;
   line-height: 24px;
   text-align: center;
-  background: #36b37f;
+  background: #1a5b40;
   border-radius: 4px;
   color: #fff;
   padding: 12px;
@@ -337,7 +348,7 @@ main {
 .work-button:hover,
 .about-me-button:hover,
 .input-button:hover {
-  background: #36b37f;
+  background: #1a5b40;
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 4px;
   font-size: 20px;
