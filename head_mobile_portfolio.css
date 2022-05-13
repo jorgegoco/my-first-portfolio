@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
 }
 
 .sr-only {
@@ -25,8 +27,6 @@ header {
 }
 
 .welcome {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 28px;
@@ -40,8 +40,6 @@ main {
 }
 
 .big {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -72,8 +70,6 @@ main {
 }
 
 .text {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -104,8 +100,6 @@ main {
 }
 
 .recent-works {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -144,8 +138,6 @@ main {
 }
 
 .multi-post {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
@@ -169,8 +161,6 @@ main {
 
 .work-button {
   display: inline-block;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -193,8 +183,6 @@ main {
 }
 
 .about-me-title {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -205,8 +193,6 @@ main {
 }
 
 .about-me-text {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
@@ -217,8 +203,6 @@ main {
 
 .about-me-button {
   display: inline-block;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -254,8 +238,6 @@ main {
 }
 
 .grid2-headlines {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
@@ -275,8 +257,6 @@ main {
   padding: 12px;
   background: #fff;
   border-radius: 8px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
@@ -297,8 +277,6 @@ main {
   margin: 4px;
   background: #fff;
   border-radius: 8px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
@@ -319,8 +297,6 @@ main {
   margin: 4px;
   background: #fff;
   border-radius: 8px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
@@ -330,8 +306,6 @@ main {
 
 .input-button {
   display: inline-block;
-  font-family: 'Inter', sans-serif, serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -367,8 +341,6 @@ main {
 }
 
 .footer-header {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -398,8 +370,6 @@ main {
   margin-bottom: 24px;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
@@ -415,8 +385,6 @@ main {
   margin-bottom: 24px;
   border: 1px solid #60c095;
   border-radius: 4px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
@@ -425,8 +393,6 @@ main {
 }
 
 .email-footer {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
@@ -461,8 +427,6 @@ main {
   }
 
   .top-desktop-text {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
@@ -533,8 +497,6 @@ main {
   .footer-header {
     width: 463px;
     float: left;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 52px;
