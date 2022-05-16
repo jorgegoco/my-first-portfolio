@@ -13,4 +13,4 @@ document.getElementById("close-button").addEventListener('click', hideMenu);
 for (let i = 0; i < menuLinks.length; i++) {
     menuLinks[i].addEventListener('click', hideMenu);
   }*/
-  
+
