@@ -17,6 +17,31 @@ body {
 
 #menu-mobile {
   display:none;
+  width: 100vw;
+  height: 100vh;
+}
+
+#close-button {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  right: 38px;
+  top: 62px;
+}
+
+.contain-menu-link {
+  flex-direction: column;
+  margin-top: 108px;
+  margin-left: 28px;
+  gap: 8px;
+
+}
+
+.menu-link {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  /* text-decoration-line: none;*/
 }
 
 header {
