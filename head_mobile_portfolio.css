@@ -40,7 +40,7 @@ body {
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
-  text-decoration-line: none; 
+  text-decoration-line: none;
 }
 
 header {
@@ -511,7 +511,7 @@ main {
   .grid-container2 {
     display: grid;
     grid-template-rows: none;
-    row-gap: none;
+    row-gap: 0;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 24px;
     padding: 59px 142px 84px 142px;
