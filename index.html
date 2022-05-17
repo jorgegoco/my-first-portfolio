@@ -11,9 +11,20 @@
 </head>
 
 <body>
+  <div id="total-menu-mobile">
+    <div id="menu-mobile">
+      <img id="close-button" src="./images/close-icon.svg" alt="close_button">
+      <div class="contain-menu-link">
+        <a class="menu-link" href="#my-recent-works">Portfolio</a>
+        <a class="menu-link" href="#about-me">About</a>
+        <a class="menu-link" href="#contact-form">Contact</a>
+      </div>
+    </div>
+    <hr class="menu-black-line">
+  </div>
   <header>
     <h2 class="welcome">Welcome</h2>
-    <i class="material-icons">menu</i>
+    <i id="hamburger-icon" class="material-icons">menu</i>
   </header>
   <main>
     <div class="desktop-header">
@@ -37,7 +48,15 @@
     </ul>
     <img class="chevron" src="./images/Chevron.svg" alt="chevron">
   </main>
-  <h2 class="recent-works">My Recent Works</h2>
+  <div id="show-work">
+    <div id="top-show-work">
+      <img id="close-work-button" src="./images/close-icon.svg" alt="close_button">
+    </div>
+    <div id="bottom-show-work">
+      <h3>Keeping track of hundreds of components</h3>
+    </div>
+  </div>
+  <h2 id="my-recent-works" class="recent-works">My Recent Works</h2>
   <hr class="short-green-line">
   <section class="grid-container">
     <div class="grid-item">
@@ -115,7 +134,7 @@
   </section>
   <section class="about-me">
     <div class="about-me-headline">
-      <h2 class="about-me-title">About me</h2>
+      <h2 id="about-me" class="about-me-title">About me</h2>
       <p class="about-me-text"> I can help you build a product , feature or website Look through some of my work
         and experience! If you like what you see and have a project you need coded,
         don’t hesitate to contact me.</p>
@@ -157,7 +176,8 @@
     </div>
   </section>
   <footer class="footer">
-    <h2 class="footer-header">I'm always interested in hearing about new projects, so if you'd like to chat please
+    <h2 id="contact-form" class="footer-header">I'm always interested in hearing about new projects, so if you'd like to
+      chat please
       get
       in touch.</h2>
     <form class="form" action="https://formspree.io/f/xdobpwbj" method="post">
@@ -166,7 +186,8 @@
       <label class="sr-only" for="email">Email</label>
       <input class="input-text" id="email" name="email" type="email" placeholder="Email address" required>
       <label class="sr-only" for="text">Text</label>
-      <textarea class="input-textarea" id="text" name="text" maxlength="500" placeholder="Enter text here" required></textarea>
+      <textarea class="input-textarea" id="text" name="text" maxlength="500" placeholder="Enter text here"
+        required></textarea>
       <button class="input-button">Get in touch</button>
     </form>
     <hr class="long-grey-line">
@@ -180,6 +201,8 @@
   </footer>
   <p class="email-footer">jorgegoco70@gmail.com</p>
   <hr class="short-black-line">
+  <script src="./scripts/portfolio-mobile-menu.js"></script>
+  <script src="./scripts/project-details.js"></script>
 </body>
 
 </html>
