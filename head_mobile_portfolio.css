@@ -21,6 +21,10 @@ body {
   height: 100vh;
 }
 
+#menu-mobile > div > a {
+  color: #3a4a42;
+}
+
 #close-button {
   position: absolute;
   width: 14px;
