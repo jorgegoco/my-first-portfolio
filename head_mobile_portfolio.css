@@ -15,10 +15,19 @@ body {
   border: 0;
 }
 
-#menu-mobile {
+#total-menu-mobile {
   display: none;
   width: 100vw;
   height: 100vh;
+  background: #e5e5e5;
+}
+
+#menu-mobile {
+  padding-bottom: 400px;
+  padding-top: 1px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background: #ffffff;
 }
 
 #close-button {
@@ -42,6 +51,15 @@ body {
   line-height: 44px;
   color: #3a4a42;
   text-decoration-line: none;
+}
+
+.menu-black-line {
+  width: 150px;
+  height: 4px;
+  background: #172b4d;
+  border-radius: 24px;
+  margin-bottom: 9px;
+  margin-top: 40px;
 }
 
 header {
@@ -128,6 +146,12 @@ main {
   margin-top: 50px;
 }
 
+#show-work {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./images/my-works-mobile.png");
+}
 .recent-works {
   font-weight: 700;
   font-size: 40px;

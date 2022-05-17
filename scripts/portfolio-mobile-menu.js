@@ -1,10 +1,12 @@
 function showMenu() {
-  document.querySelector('#menu-mobile').style.display = 'block';
+  document.querySelector('#total-menu-mobile').style.display = 'inline-block';
   document.querySelector('.contain-menu-link').style.display = 'flex';
+  document.querySelector('body').style.overflow = 'hidden';
 }
 
 function hideMenu() {
-  document.querySelector('#menu-mobile').style.display = 'none';
+  document.querySelector('#total-menu-mobile').style.display = 'none';
+  document.querySelector('body').style.overflow = 'visible';
 }
 
 document.querySelector('#hamburger-icon').addEventListener('click', showMenu);
