@@ -27,7 +27,7 @@ body {
   padding-top: 1px;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
-  background: #ffffff;
+  background: #fff;
 }
 
 #close-button {
@@ -152,6 +152,7 @@ main {
   height: 100vh;
   background-image: url("./images/my-works-mobile.png");
 }
+
 .recent-works {
   font-weight: 700;
   font-size: 40px;
