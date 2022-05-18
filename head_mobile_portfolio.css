@@ -4,6 +4,11 @@ body {
   font-style: normal;
 }
 
+#main-page {
+  margin: 0;
+  padding: 0;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -16,7 +21,6 @@ body {
 }
 
 #total-menu-mobile {
-  display: none;
   width: 100vw;
   height: 100vh;
   background: #e5e5e5;
@@ -39,6 +43,7 @@ body {
 }
 
 .contain-menu-link {
+  display: flex;
   flex-direction: column;
   margin-top: 108px;
   margin-left: 28px;
