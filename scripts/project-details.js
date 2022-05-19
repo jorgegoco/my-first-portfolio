@@ -67,7 +67,7 @@ const projects = [
     },
   
   ];
-  function (showWork) {
+  function showWork() {
     document.querySelector('#main-page').style.display = 'none';
     document.querySelector('#work-popup').style.display = 'block';
   }
