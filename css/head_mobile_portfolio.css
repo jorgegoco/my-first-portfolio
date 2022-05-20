@@ -87,7 +87,7 @@ header {
 
 main {
   padding-top: 58px;
-  background-image: url("./images/header-background-mobile.png");
+  background-image: url("../images/header-background-mobile.png");
   background-size: cover;
 }
 
@@ -155,7 +155,7 @@ main {
   display: none;
   width: 100vw;
   height: 100vh;
-  background-image: url("./images/my-works-mobile.png");
+  background-image: url("../images/my-works-mobile.png");
 }
 
 .recent-works {
@@ -236,7 +236,7 @@ main {
 
 .about-me-headline {
   text-align: center;
-  background-image: url("./images/about-me-background-mobile.png");
+  background-image: url("../images/about-me-background-mobile.png");
   background-size: cover;
   margin-top: 20px;
 }
@@ -395,7 +395,7 @@ main {
 }
 
 .footer {
-  background-image: url("./images/contact-form-background-mobile.png");
+  background-image: url("../images/contact-form-background-mobile.png");
   background-size: cover;
 }
 
@@ -471,7 +471,7 @@ main {
   main {
     padding: 0;
     padding-bottom: 495px;
-    background-image: url("./images/header-background-desktop.png");
+    background-image: url("../images/header-background-desktop.png");
     background-size: 100% 100%;
   }
 
@@ -530,7 +530,7 @@ main {
 
   .about-me-headline {
     text-align: center;
-    background-image: url("./images/about-me-background-desktop.svg");
+    background-image: url("../images/about-me-background-desktop.svg");
     background-size: cover;
     margin-top: 144px;
   }
@@ -549,7 +549,7 @@ main {
   }
 
   .footer {
-    background-image: url("./images/contact-form-background-desktop.png");
+    background-image: url("../images/contact-form-background-desktop.png");
     background-size: cover;
   }
 
